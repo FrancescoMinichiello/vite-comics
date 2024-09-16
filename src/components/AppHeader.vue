@@ -21,7 +21,7 @@ export default{
 
 <template>
     <header>
-            <div class="row row-cols-2 py-3">
+            <div class="row gx-0 py-3">
                 <div class="col d-flex justify-content-center align-items-center">
                     <img src="../assets/img/dc-logo.png" alt="DC logo">
                 </div>
@@ -36,7 +36,5 @@ export default{
 
 <style lang="scss" scoped>
 @use 'bootstrap/scss/bootstrap.scss' as *;
-img{
-    width: 80px;
-}
+
 </style>    
