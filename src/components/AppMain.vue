@@ -9,9 +9,9 @@ export default{
 </script>
 
 <template>
-
+    
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+@use 'bootstrap/scss/bootstrap.scss' as *;
 </style>    

@@ -20,8 +20,10 @@ export default{
 
 <template>
   <!--INSERISCO I COMPONENTI DOVE VOGLIO CHE SIANO VISIBILI TRAMITE SELF CLOSING TAG | **** "  <componente/>  " **** | -->
+  <!--Header-->
+  <AppHeader/>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>    
