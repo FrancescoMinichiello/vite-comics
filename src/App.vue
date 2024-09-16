@@ -3,8 +3,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
-import AppSocialBanner from './components/AppSocialBanner.vue';
-import AppSocialBanner from './components/AppSocialBanner.vue';
+import AppFooterSocialBanner from './components/AppFooterSocialBanner.vue';
 export default{
   data(){
     return{
@@ -16,7 +15,7 @@ export default{
     AppHeader,
     AppMain,
     AppFooter,
-    AppSocialBanner
+    AppFooterSocialBanner
   }
 }
 </script>
@@ -27,7 +26,7 @@ export default{
   <AppHeader/>
   <AppMain/>
   <AppFooter/>
-  <AppSocialBanner/>
+  <AppFooterSocialBanner/>
 </template>
 
 <style lang="scss" scoped>

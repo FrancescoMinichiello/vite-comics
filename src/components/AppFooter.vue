@@ -48,23 +48,23 @@ export default{
           <div class="col footer-nav px-2">
             <p>DC COMICS</p>
             <ul>
-              <li v-for="navLink in navLinksDcComics">{{ navLink }}</li>
+              <li v-for="navLink in navLinksDcComics"><a href="#">{{ navLink }}</a></li>
             </ul>
             <p>SHOP</p>
             <ul>
-              <li v-for="navLink in navLinksShop">{{ navLink }}</li>
+              <li v-for="navLink in navLinksShop"><a href="#">{{ navLink }}</a></li>
             </ul>
           </div>
           <div class="col footer-nav px-2">
             <p>DC</p>
             <ul>
-              <li v-for="navLink in navLinksDc">{{ navLink }}</li>
+              <li v-for="navLink in navLinksDc"><a href="#">{{ navLink }}</a></li>
             </ul>
           </div>
           <div class="col footer-nav px-2">
             <P>SITES</P>
             <ul>
-              <li v-for="navLink in navLinksSites">{{ navLink }}</li>
+              <li v-for="navLink in navLinksSites"><a href="#">{{ navLink }}</a></li>
             </ul>
           </div>
         </div>
@@ -99,6 +99,11 @@ ul{
   padding-left: 0;
   li{
     padding-bottom: 10px;
+    color: #7C8081;
+    font-size: 15px;
+    a{
+      text-decoration: none;
+    }
   }
 }
 

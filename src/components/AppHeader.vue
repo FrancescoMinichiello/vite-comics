@@ -27,7 +27,7 @@ export default{
                 </div>
                 <div class="col d-flex align-items-center">
                     <ul class="d-flex gap-3 fs-5 m-0">
-                        <li v-for="navItems in navLinks">{{ navItems }}</li>
+                        <li v-for="navItems in navLinks"><a href="#">{{ navItems }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,5 +36,9 @@ export default{
 
 <style lang="scss" scoped>
 @use 'bootstrap/scss/bootstrap.scss' as *;
+
+a{
+    text-decoration: none;
+}
 
 </style>    
