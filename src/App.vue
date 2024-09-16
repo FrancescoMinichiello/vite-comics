@@ -23,6 +23,7 @@ export default{
   <!--Header-->
   <AppHeader/>
   <AppMain/>
+  <AppFooter/>
 </template>
 
 <style lang="scss" scoped>
