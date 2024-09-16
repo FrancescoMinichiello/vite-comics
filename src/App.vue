@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppFooterSocialBanner from './components/AppFooterSocialBanner.vue';
+import AppBannerMain from './components/AppBannerMain.vue';
 export default{
   data(){
     return{
@@ -15,7 +16,8 @@ export default{
     AppHeader,
     AppMain,
     AppFooter,
-    AppFooterSocialBanner
+    AppFooterSocialBanner,
+    AppBannerMain
   }
 }
 </script>
@@ -25,6 +27,7 @@ export default{
   <!--Header-->
   <AppHeader/>
   <AppMain/>
+  <AppBannerMain/>
   <AppFooter/>
   <AppFooterSocialBanner/>
 </template>
