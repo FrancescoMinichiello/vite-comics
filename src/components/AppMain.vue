@@ -97,7 +97,7 @@ export default{
       </div>
     </div>
     <div class="d-flex justify-content-center mt-5">
-      <button class="load-more-btn">LOAD MORE</button>
+      <button class="load-more-btn"><b>LOAD MORE</b></button>
     </div>
 </main>
 </template>

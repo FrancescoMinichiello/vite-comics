@@ -15,7 +15,7 @@ export default{
             <a href="#"><button class="button-sign-up">SIGN-UP NOW!</button></a>
         </div>
         <div class="col d-flex">
-            <p class="d-flex align-items-center me-5">FOLLOW US</p>
+            <p class="d-flex align-items-center me-5"><b>FOLLOW US</b></p>
             <div class="d-flex align-items-center gap-3">
                 <a href="#"><img src="../assets/img/footer-facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="../assets/img/footer-twitter.png" alt="Twitter"></a>
