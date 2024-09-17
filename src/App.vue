@@ -1,6 +1,7 @@
 <script>
 //1-IMPORTO IL COMPONENTE DAI COMPONENTI
 import AppHeader from './components/AppHeader.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppFooterSocialBanner from './components/AppFooterSocialBanner.vue';
@@ -17,7 +18,8 @@ export default{
     AppMain,
     AppFooter,
     AppFooterSocialBanner,
-    AppBannerMain
+    AppBannerMain,
+    AppJumbotron
   }
 }
 </script>
@@ -26,6 +28,7 @@ export default{
   <!--INSERISCO I COMPONENTI DOVE VOGLIO CHE SIANO VISIBILI TRAMITE SELF CLOSING TAG | **** "  <componente/>  " **** | -->
   <!--Header-->
   <AppHeader/>
+  <AppJumbotron/>
   <AppMain/>
   <AppBannerMain/>
   <AppFooter/>
