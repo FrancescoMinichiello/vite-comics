@@ -19,15 +19,20 @@ export default{
 </script>
 
 <template>
-            <div>
-                <img :src="cardThumbs" class="card-thumb" alt="">
+            <div class="box-card" >
+                <img :src="cardThumbs" class="card-thumb" :alt="cardSeries">
+                <p>{{ cardSeries }}</p>
             </div>
 </template>
 
 <style lang="scss" scoped>
+    .box-card{
+        min-height: 200px;
+        width: 150px;
+        color: white;
+    }
     .card-thumb{
         height: 150px;
-        width: 150px;
+        width: 100%;
     }
-
 </style>    
