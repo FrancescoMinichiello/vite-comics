@@ -62,7 +62,7 @@ export default{
             </ul>
           </div>
           <div class="col footer-nav px-2">
-            <P>SITES</P>
+            <p>SITES</p>
             <ul>
               <li v-for="navLink in navLinksSites"><a href="#">{{ navLink }}</a></li>
             </ul>
@@ -78,7 +78,7 @@ export default{
 <style lang="scss" scoped>
 @use 'bootstrap/scss/bootstrap.scss' as *;
 footer{
-  min-height: 500px;
+  min-height: 400px;
   background-image: url("../assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,7 @@ footer{
   .footer-image{
     background-image: url("../assets/img/dc-logo-bg.png");
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 400px;
   }
   .footer-nav{
     width: calc(100% / 3);
